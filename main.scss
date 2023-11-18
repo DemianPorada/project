@@ -206,24 +206,6 @@ html {
         line-height: normal;
     }
 }
-.fon{
-    @media screen and (max-width: 1365px) {
-        display: none;
-    }
-    @media screen and (min-width: 1366px) and (max-width: 1919px) {
-        display: block;
-        
-    }
-    @media screen and (min-width:1920px) {
-        display: block;
-        width: 743px;
-        height: 731px;
-        background-color: aqua;
-        position: absolute;
-        left: 989px;
-        top: 144px;
-    }
-}
 .foto-svg{
     @media screen and (max-width: 1365px) {
         display: none;
@@ -239,5 +221,21 @@ html {
         left: 558px;
         top: 898px;
         bottom: 23px;
+    }
+}
+.fon{
+    display: flex;
+    width: 743px;
+    height: 731px;
+    background-color: aqua;
+    position: absolute;
+    left: 989px;
+    top: 144px;
+    @media screen and (min-width: 1366px) and (max-width: 1919px) {
+        display: flex;
+    }
+    @media screen and (min-width:1920px) {
+        display: flex;
+     
     }
 }

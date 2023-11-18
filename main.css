@@ -182,28 +182,6 @@ img {
 }
 
 @media screen and (max-width: 1365px) {
-  .fon {
-    display: none;
-  }
-}
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
-  .fon {
-    display: block;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .fon {
-    display: block;
-    width: 743px;
-    height: 731px;
-    background-color: aqua;
-    position: absolute;
-    left: 989px;
-    top: 144px;
-  }
-}
-
-@media screen and (max-width: 1365px) {
   .foto-svg {
     display: none;
   }
@@ -217,5 +195,25 @@ img {
     left: 558px;
     top: 898px;
     bottom: 23px;
+  }
+}
+
+.fon {
+  display: flex;
+  width: 743px;
+  height: 731px;
+  background-color: aqua;
+  position: absolute;
+  left: 989px;
+  top: 144px;
+}
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+  .fon {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .fon {
+    display: flex;
   }
 }/*# sourceMappingURL=main.css.map */
