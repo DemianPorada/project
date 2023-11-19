@@ -181,20 +181,6 @@ img {
   }
 }
 
-.fon {
-  display: none;
-}
-@media screen and (min-width: 1366px) and (max-width: 1919px) {
-  .fon {
-    display: block;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .fon {
-    display: inline-block;
-  }
-}
-
 @media screen and (max-width: 1365px) {
   .foto-svg {
     display: none;
@@ -210,4 +196,14 @@ img {
     top: 898px;
     bottom: 23px;
   }
+}
+
+.fon {
+  display: flex;
+  width: 743px;
+  height: 731px;
+  background-color: aqua;
+  position: absolute;
+  left: 989px;
+  top: 144px;
 }/*# sourceMappingURL=main.css.map */

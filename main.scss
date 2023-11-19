@@ -224,18 +224,20 @@ html {
     }
 }
 .fon{
-    display: flex;
-    width: 743px;
-    height: 731px;
-    background-color: aqua;
-    position: absolute;
-    left: 989px;
-    top: 144px;
+    display: none;
     @media screen and (min-width: 1366px) and (max-width: 1919px) {
         display: flex;
+        width: 528px;
+        height: 520px;
+        flex-shrink: 0;
     }
     @media screen and (min-width:1920px) {
         display: flex;
-     
+        width: 743px;
+        height: 731px;
+        background-color: aqua;
+        position: absolute;
+        left: 989px;
+        top: 144px;
     }
 }
