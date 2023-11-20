@@ -221,10 +221,7 @@ html {
         border-radius: 100px;
         border: 1px solid #2887D9;
         background:  lightgray 50% / cover no-repeat;
-        position: absolute;
-        top: 216px;
     }
-
 }
 .foto-for-comment-1{
     
@@ -250,8 +247,6 @@ html {
         border-radius: 100px;
         border: 1px solid #2887D9;
         background:  lightgray 50% / cover no-repeat;
-        position: absolute;
-        top: 606px;
     }
 }
 .text-what-say-oyr-clients{
@@ -306,21 +301,87 @@ html {
 }
 .fon{
     @media screen and (max-width: 1365px) {
-      
+        width: 153px;
+        height: 150.529px;
+        flex-shrink: 0;
+        margin-left: 39px;
+        margin: 52px;
+        margin-bottom: 23px;
     }
     @media screen and (min-width: 1366px) and (max-width: 1919px) {
-        display: flex;
         width: 528px;
         height: 520px;
         flex-shrink: 0;
+        margin-left: 70px;
+        margin-top: 100px;
+        margin-bottom: 72px;
     }
     @media screen and (min-width:1920px) {
-        display: flex;
         width: 743px;
         height: 731px;
         background-color: aqua;
-        position: absolute;
-        left: 989px;
-        top: 144px;
+        margin-left: 60px;
+        margin-top: 144px;
+        margin-bottom: 98px;
+    }
+}
+.title-answer-and-question{
+    color: var(--blue-dark-blue, #2887D9);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 112.5% */
+    margin-top: 55px;
+    margin-left: 24px;
+    @media screen and (min-width: 1366px) and (max-width: 1919px) {
+       display: none;
+    }
+    @media screen and (min-width:1920px) {
+        display: none;
+    }
+}
+.intresting{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    @media screen and (min-width: 1366px) and (max-width: 1919px) {
+        display: none;
+    }
+    @media screen and (min-width:1920px) {
+        display: none;
+    }
+}
+.intresting-1{
+    color: var(--blue-dark-blue, #2887D9);
+
+/* mobile/main text */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    @media screen and (min-width: 1366px) and (max-width: 1919px) {
+        display: none;
+    }
+    @media screen and (min-width:1920px) {
+        display: none;
+    }
+}
+.intresting-2{
+    color: var(--gray-maintext, #3A3B3D);
+
+/* mobile/main text */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    @media screen and (min-width: 1366px) and (max-width: 1919px) {
+        display: none;
+    }
+    @media screen and (min-width:1920px) {
+        display: none;
     }
 }
