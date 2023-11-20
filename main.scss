@@ -214,6 +214,8 @@ html {
         border-radius: 71.146px;
         border: 0.711px solid #2887D9;
         background: lightgray 50% / cover no-repeat;
+        position: absolute;
+        margin-top: 60px;
     }
     @media screen and (min-width:1920px) {
         width: 189px;
@@ -221,6 +223,8 @@ html {
         border-radius: 100px;
         border: 1px solid #2887D9;
         background:  lightgray 50% / cover no-repeat;
+        position: absolute;
+        margin-top: 80px;
     }
 }
 .foto-for-comment-1{
@@ -240,6 +244,8 @@ html {
         border-radius: 71.146px;
         border: 0.711px solid #2958E5;
         background: lightgray 50% / cover no-repeat;
+        position: absolute;
+        margin-top: 100px;
     }
     @media screen and (min-width:1920px) {
         width: 189px;
@@ -247,6 +253,8 @@ html {
         border-radius: 100px;
         border: 1px solid #2887D9;
         background:  lightgray 50% / cover no-repeat;
+        position: absolute;
+        margin-top: 117px;
     }
 }
 .text-what-say-oyr-clients{
@@ -287,6 +295,9 @@ html {
         height: 40px;
         // transform: rotate(90deg);
         flex-shrink: 0;
+        position: absolute;
+        left: 354px;
+        top: 635px;
     }
     @media screen and (min-width:1920px) {
         width: 52px;
@@ -311,17 +322,17 @@ html {
     @media screen and (min-width: 1366px) and (max-width: 1919px) {
         width: 528px;
         height: 520px;
-        flex-shrink: 0;
-        margin-left: 70px;
-        margin-top: 100px;
-        margin-bottom: 72px;
+        margin-left: 55px;
+        margin-top: 25px;
+        margin-bottom: 57px;
+        background-color: aqua;
     }
     @media screen and (min-width:1920px) {
         width: 743px;
         height: 731px;
         background-color: aqua;
         margin-left: 60px;
-        margin-top: 144px;
+        margin-top: 100px;
         margin-bottom: 98px;
     }
 }
